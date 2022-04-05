@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+
+hr {
+  width: 70%;
+}
+  
+#board, #check-holder {
+    margin: 15px auto;
+    width: 400px;
+}
+
+#board {
+    border: 10px solid #6a4a2f;
+    height: 400px;
+}
+  
+button {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    padding: 0;
+    cursor: pointer
+}
+
+.queen {
+    background: inherit;
+    border: 1px solid #714d38;
+}
+
+.queen:focus,
+.queen:active,
+#reset-btn, #check-btn {
+    outline: none;
+}
+
+.inactive {
+    opacity: 0.3;
+}
+
+i {
+    background: inherit;
+    color: white;
+    font-size: 20px;
+}
+
+.black {
+    background: #714d38;
+}
+
+.white {
+    background: #efddb4;
+}
+
+#check-btn {
+    float: left;
+    margin-left: 40px;
+}
+
+#reset-btn {
+    float: right;
+    margin-right: 40px;
+}
+
+#reset-btn, #check-btn {
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    border: 2px double #6a4a2f;
+    background: #ffffff;
+    color: #6a4a2f;
+    margin-bottom: 10px;
+}
+
+.attack-path {
+    background: #ECF0F1;
+}
+
+.under-attack {
+    background: #E74C3C;
+}
+
+.safe {
+    background: #28B463;
+}
+
+.disabled, .btn-disabled {
+    cursor: not-allowed;
+}
+
+.btn-disabled {
+    opacity: 0.3;
+}
